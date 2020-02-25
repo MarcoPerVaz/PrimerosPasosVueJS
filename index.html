@@ -12,7 +12,9 @@
   <!-- ID que usa Vue -->
   <div id="app">
     {{ message }}
+    <p>Computed reversed message: "{{ reversedMessage }}"</p>
     {{ sum }}
+    <p>{{ calculateSum(sum, value) }}</p>
   </div>
   <!-- End ID que usa Vue -->
 
