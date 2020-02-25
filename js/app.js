@@ -4,6 +4,13 @@ var app = new Vue({
     message: 'Hello Vue!',
     sum: 4 + 6,
     value: 5,
+    isVisible: true,
+    people: [
+      'Marco',
+      'Ándres',
+      'Juan',
+      'Alejandro',
+    ]
   },
   computed: {
     // a computed getter
@@ -20,8 +27,5 @@ var app = new Vue({
 });
 
 /* Notas:
-    *Las propiedades computadas son fucniones que hacen o que pueden hacer las variables
-      Ejemplo: La variable message es retornada de forma inversa
-        De: Hello Vue! a: !euV olleH
-    *Los métodos son funciones tradicionales de POO
+   
 */
